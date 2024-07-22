@@ -78,6 +78,7 @@ The purpose of this project is to serve as a central controller in a Java web ap
 * ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
 
 - **Action Dispatchers**: Classes that handle specific actions below:
+
 - AddToCartDispatcher
 - CheckoutDispatcher
 - ContinueDispatcher
