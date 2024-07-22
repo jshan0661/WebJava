@@ -73,12 +73,12 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 <h2>Controller Layer</h2>
 
-- **Front Controller Servlet**: Acts as a centralized controller to handle all incoming HTTP requests. It determines the requestd action, delegates it to specific action hadlners and forwards the response to the appropriate view.
+<h4>Front Controller Servlet</h4>: Acts as a centralized controller to handle all incoming HTTP requests. It determines the requestd action, delegates it to specific action hadlners and forwards the response to the appropriate view.
 
 
 * ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
 
-- **Action Dispatchers**: Classes that handle specific actions below:
+<h4>Action Dispatchers</h4>: Classes that handle specific actions below:
 - **AddToCartDispatcher**
 - **CheckoutDispatcher**
 - **ContinueDispatcher**
