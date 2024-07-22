@@ -1,7 +1,7 @@
  
  # Java Web
 
-![webjava](https://github.com/user-attachments/assets/f3fe2a99-67a9-4d09-b349-65970e40aeaa)
+![netbeans](https://github.com/user-attachments/assets/cbc73d50-c1e0-4566-9916-243fb22b91eb)
 
 # Overview
 
@@ -11,21 +11,16 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 
 <h2>Features</h2>
-<h4>Source Packges</h4>
+<h4>Front Controller Servlet</h4>
 
-- **Controller**: Add new student records with details such as StudentID, GivenName, LastName, and EmailAddress.
-- **Dispatches**: Retrieve individual student details or a list of all students.
-- **Model**: Modify existing student records using their unique identifiers.
-<h4>Web Pages</h4>
+- **Centralized Request Handling**: The `Front Controller` servlet acts as a singlr entry point for handling all user actions.
+- **Action Dispatching**: Uses a `hashmap` to map actions(Dispatcher clasess) that handle those actions.
+- **Request Forwarding**: Forwards request to appropriate JSP pages based on the action.
 
-- **Delete**: Remove student records based on specific criteria like StudentID and GivenName.
-- **Validation**: Ensure data integrity with validation rules for input fields.
-- **Error Handling**: Provide meaningful error messages for validation failures and other exceptions.
-- **Authentication**: Secure API endpoints with token-based authentication.
-- **Postman Integration**: Use Postman for testing API endpoints and ensuring correct functionality.
-- **API Documentation**: Comprehensive documentation for all endpoints, including examples of requests and responses.
+<h4>JavaDB Integration</h4>
 
-
+- **Database Conncetivity**: Connects to JavaDb for persistent data storage.
+- **Data Operations**: Performs CRUD operations on the database for managing shopping system.
 
 <h2>Debugging Process</h2>
 
