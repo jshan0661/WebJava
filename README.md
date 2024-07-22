@@ -24,42 +24,44 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 <h2>Debugging Process</h2>
 
-### 1. Check Request and Response
+### 1. Check Server Logs
 
-- **Inspect Request Data**: Ensure that the data being sent to the API is correctly formatted and includes all required fields.
-- **Review Response**: Look at the API response to understand the status code and any error messages returned by the server.
+- **Access Logs**: NetBeans intergrates well servers GlassFish. Access the server logs via the `Service` tab
+- **Log Files Location**: Navigate to `logs` under the server node in the `Service` tab to view server logs directly within NetBeans.
 
-### 2. Validate Input Data
+### 2. NetBeans Debugger
 
-- **Validation Rules**: Verify that the input data adheres to the defined validation rules. For example, check that `StudentID` is unique and `EmailAddress` is a valid email format.
-- **Custom Error Messages**: Ensure that custom error messages are correctly set up to provide clear guidance on validation failures.
-
-### 3. Use Postman for Testing
-
-- **Create and Save Requests**: Use Postman to create, save, and organize requests for each API endpoint.
-- **Run Tests**: Execute requests and review responses to ensure that endpoints behave as expected.
-
-### 4. Handle Exceptions
-
-- **Try-Catch Blocks**: Use try-catch blocks to handle exceptions gracefully and provide meaningful error responses.
-- **ModelNotFoundException**: Specifically handle `ModelNotFoundException` to return a `404 Not Found` response when a student record does not exist.
+- **Set Breakpoints**: Open you Java classes in NetBeans and click in the left margin of the editor to set breakpoints at lines where you want to pause execution.
+- **Start Debugging**: Right-Click on your project and selet `Debug`.
+- **Step Through Code**: `Step into`, `Step Over`, `Step Out` navigate through your code and inspect variable values.
 
 <h2>Installation</h2>
 
-- **IDE**: An integrated development environment(IDE) makes development easier [official website](https://visualstudio.microsoft.com/)
-- **Visual Studio**: A powerful IDE for Windows and MacOS, which provides extensive feature for C# development. 
+- **IDE**: An integrated development environment (IDE) makes development easier [official website](https://netbeans.apache.org/)
+- **NetBeans IDE 8.2**: A powerful IDE for Windows, macOS, and Linux, which provides extensive features for Java development.
+
+-**Getting Started**
+
+- JDK 8 or higher
+- NetBeans IDE
+
+1. **Download and Install GlassFish**: 
+   - [Download GlassFish](https://javaee.github.io/glassfish/download)
+   - Unzip to preferred location
+
+2. **Add GlassFish to NetBeans**:
+   - Open NetBeans, go to **Services** > **Servers** > **Add Server**
+   - Select **GlassFish Server**, provide server location, and finish
+
+3. **Set Up Database (JavaDB)**:
+   - Start JavaDB: **Services** > **Databases** > **Java DB** > **Start Server**
+   - Create and connect to the database
 
 - **Clone the Repository**:
    ```bash
    git https://github.com/ChungmanPARK12/DataStructure-and-Algorithm.git
    cd <StudentEnrolmentSystem>
   
-
-# Getting started
-- **Running the server**
-`node ace serve --wath`
-- ![started](https://github.com/user-attachments/assets/31c1bf47-3c10-4252-956b-7fe64884397d)
-
 # Architechture
 <h2>StudentController.ts</h2>
 
