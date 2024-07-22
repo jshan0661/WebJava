@@ -103,43 +103,32 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 * ### One Example Code of Cart [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/dfb11fa5c216f677780d2e32fa7e1dff72eb9692/README_cartjsp.md)
 
+<h2>Model Layer</h2>
 
-# Postman(CRUD)
+- **Book**: Represents a book with attributes, ISBN, title, author and price.
 
-<h2>API Endpoint</h2>
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
 
-**You can interact with the Student Management API using the following base URL**:
+- **Cart Item**: Represents an item in the shopping cart, including the book, quantity and cost.
 
- ```http://127.0.0.1:3333/api/v1/students```
- 
-<h2>GET Student</h2>
- 
-Use the `GET` method to retrieve student details by ID or All of the lists.
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfStudentController.git)
+<h2>Data Access Layer</h2>
 
-<h2>POST Student</h2>
- 
-Use the `Update` method to create a new student record by sending student details in the request body.
+- **Admit Book Store DAO**: Provides methods to interact with the database, such as retrieving and storing book and cart information
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfPost.git)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
 
-<h2>DELETE Student</h2>
- 
-Use the `DELETE` method to remove a student record by providing specific criteria in the request body.
+<h2>Database Layer</h2>
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfDelete.git)
+- **JavaDB**
 
-<h2>UPDATE Student</h2>
-
-Use the `PUT` method to update an existing student record by its ID, replacing all fields with new data.
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
 
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfPut.git)
 
-Use the `PATCH` method to update specific fields of an existing student record without replacing the entire record.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfPut/blob/5f05bc270a8346a58a12a24bfaf1c6efa8272949/README2.md)
+
 
 ## Summary
 
