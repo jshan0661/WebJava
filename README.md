@@ -79,14 +79,29 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 - **Action Dispatchers**: Classes that handle specific actions below:
 
-- AddToCartDispatcher
-- CheckoutDispatcher
-- ContinueDispatcher
-- HomeDispatcher
-- UpdateCartDispatcher
-- ViewCartDispatcher
+- AddToCartDispatcher.java
+- CheckoutDispatcher.java
+- ContinueDispatcher.java
+- HomeDispatcher.java
+- UpdateCartDispatcher.java
+- ViewCartDispatcher.java
 
 * ### One Example Code of Add To Cart [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/8a6244cd8f85211bfff88651a39052f8d156df28/README_AddToCart.md)
+
+<h2>View Layer</h2>
+
+- **JPS Pages**: Dynamic web pages that display the data to the user below:
+
+- cart.jsp
+- checkout.jsp
+- error.jsp
+- final.jsp
+- footer.jsp
+- header.jsp
+- thankyou.jsp
+- titles.jsp
+
+* ### One Example Code of Cart [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/dfb11fa5c216f677780d2e32fa7e1dff72eb9692/README_cartjsp.md)
 
 
 # Postman(CRUD)
