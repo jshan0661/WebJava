@@ -59,27 +59,24 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 - **Clone the Repository**:
    ```bash
-   git https://github.com/ChungmanPARK12/DataStructure-and-Algorithm.git
-   cd <StudentEnrolmentSystem>
+   git https://github.com/ChungmanPARK12/WebJava.git
+   cd Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop
   
 # Architechture
-<h2>StudentController.ts</h2>
+<h2>Client Layer</h2>
 
-Manages student records with methods to create (`store`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
+-**Brower**: Users interact with the web application through a web brower, sending HTTP requests and receiving HTTP responses.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API_Student.ts.git)
+<h2>Web Server Layer</h2>
 
-<h2>Students.ts</h2>
+-**GlassFish Server**: The web server that hosts the Java web application, processed HTTP requests and forwards them to the appropriate servlets.
 
-Represents student records, with properties like `StudentID`, `GivenName`, `LastName`, and `EmailAddress`, enabling database interactions and validation for CRUD operations.
+<h2>Controller Layer</h2>
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/StudentsDefinition.git)
+-**Front Controller Layer**: Acts as a centralized controller to handle all incoming HTTP requests. It determines the requestd action, delegates it to specific action hadlners and forwards the response to the appropriate view.
 
-<h2>Routes.ts</h2>
 
-Maps HTTP methods to `StudentsController` actions, defining `endpoints` for creating, reading, updating, and deleting student records, ensuring structured API interaction.
-
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/Routes.ts.git)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
 
 # Postman(CRUD)
 
