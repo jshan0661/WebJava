@@ -103,17 +103,17 @@ The purpose of this project is to serve as a central controller in a Java web ap
 - thankyou.jsp
 - titles.jsp
 
-* ### One Example Code of Cart [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/dfb11fa5c216f677780d2e32fa7e1dff72eb9692/README_cartjsp.md)
+* ### One Example Code of Titles [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/6d97e6260af0debcb866367c320af6f22b3c421a/README_Titles.md)
 
 <h2>Model Layer</h2>
 
 - **Book**: Represents a book with attributes, ISBN, title, author and price.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/6d97e6260af0debcb866367c320af6f22b3c421a/README_Book.md)
 
 - **Cart Item**: Represents an item in the shopping cart, including the book, quantity and cost.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/6d97e6260af0debcb866367c320af6f22b3c421a/README_CartItem.md)
 
 <h2>Utility (Data Access Layer) Layer</h2>
 
