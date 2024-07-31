@@ -40,7 +40,7 @@ The purpose of this project is to serve as a central controller in a Java web ap
 - **IDE**: An integrated development environment (IDE) makes development easier [official website](https://netbeans.apache.org/)
 - **NetBeans IDE 8.2**: A powerful IDE for Windows, macOS, and Linux, which provides extensive features for Java development.
 
--**Getting Started**
+**Getting Started**
 
 - JDK 8 or higher
 - NetBeans IDE
@@ -76,6 +76,8 @@ The purpose of this project is to serve as a central controller in a Java web ap
 - **Front Controller Servlet**: Acts as a centralized controller to handle all incoming HTTP requests. It determines the requestd action, delegates it to specific action hadlners and forwards the response to the appropriate view.
 
 * ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
+
+<h2></h2>
 
 - **Action Dispatchers**: Classes that handle specific actions below:
 
@@ -113,7 +115,7 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 * ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
 
-<h2>Data Access Layer</h2>
+<h2>Utility (Data Access Layer) Layer</h2>
 
 - **Admit Book Store DAO**: Provides methods to interact with the database, such as retrieving and storing book and cart information
 

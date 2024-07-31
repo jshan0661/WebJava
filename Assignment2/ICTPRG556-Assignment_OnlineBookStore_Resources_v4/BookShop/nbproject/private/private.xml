@@ -3,27 +3,6 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/AddToCartDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/web/jsp/checkout.jsp</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/controller/FrontController.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/web/jsp/titles.jsp</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/TitlesDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/CheckoutDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/NewClassCheckoutDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/web/jsp/footer.jsp</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/model/CartItem.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/web/jsp/cart.jsp</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/web/jsp/header.jsp</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/ContinueDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/HomeDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/utility/AdmitBookStoreDAO.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/IDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/web/META-INF/context.xml</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/UpdateCartDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/web/index.jsp</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/dispatchers/ViewCartDispatcher.java</file>
-            <file>file:/C:/Users/박충만/Desktop/Assignment2/ICTPRG556-Assignment_OnlineBookStore_Resources_v4/BookShop/src/java/model/Book.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
