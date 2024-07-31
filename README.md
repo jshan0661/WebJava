@@ -88,7 +88,9 @@ The purpose of this project is to serve as a central controller in a Java web ap
 - UpdateCartDispatcher.java
 - ViewCartDispatcher.java
 
-* ### One Example Code of Add To Cart [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/8a6244cd8f85211bfff88651a39052f8d156df28/README_AddToCart.md)
+* ### One Example Code of Add To Cart [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/6d97e6260af0debcb866367c320af6f22b3c421a/README_AddToCart.md)
+
+
 
 <h2>View Layer</h2>
 
@@ -125,16 +127,12 @@ The purpose of this project is to serve as a central controller in a Java web ap
 
 - **JavaDB**
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/LinkedExampleOfWebJava/blob/ef5693ea748a5eb730c559a8df5f6659d1f59451/README_Controller.md)
-
-
-
-
+* ![database](https://github.com/user-attachments/assets/df280ac7-4e75-4dd0-a912-81eace7964a1)
 
 
 ## Summary
 
-The Student Management API allows for efficient management of student records through CRUD operations. Users can create, read, update, and delete student data using HTTP methods. The API ensures data integrity with validation and secure endpoints. Postman is used for testing and documentation, providing a reliable interface for interacting with the API.
+This project showcases a comprehensive web application built using Java. It includes user authentication, database integration, and a responsive UI. The application aims to provide a seamless user experience with robust backend support. 
 
 ## Thank you
 Thank you for visiting my github :)
